@@ -1,151 +1,68 @@
-<nav class="navbar">
-  <div class="container">
-    <a href="index.html" class="logo">TradeMedica</a>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="products.html">Products</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </div>
-</nav>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TradeMedica | Medical Device Distribution</title>
+  <title>TradeMedica</title>
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f6fbfd;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f8fb;
       color: #333;
       line-height: 1.6;
     }
+
     header {
-      text-align: center;
-      padding: 40px 20px 20px;
-    }
-    header img {
-      max-width: 180px;
-    }
-    main {
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-    }
-    section {
-      background: #fff;
-      margin-bottom: 30px;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-    section h2 {
-      margin-top: 0;
-      color: #0072ce;
-    }
-    footer {
-      text-align: center;
-      font-size: 14px;
-      padding: 20px;
-      color: #666;
-    }
-    a {
-      color: #0072ce;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <img src="logo.png" alt="TradeMedica Logo">
-  </header>
-  <main>
-    <section>
-      <h2>Welcome to TradeMedica</h2>
-      <p>TradeMedica is a UK-based startup focused on bringing innovative medical devices to market and bridging gaps in the healthcare sector.</p>
-      <p>We collaborate with international medical manufacturers and act as their distribution partner in the UK.</p>
-      <p>With insights into local healthcare needs, we aim to offer value-driven, quality products backed by trust and service excellence.</p>
-    </section>
-
-    <section>
-      <h2>Products Coming Soon</h2>
-      <p>We're building partnerships with global manufacturers to bring cutting-edge solutions to hospitals and clinics across the UK and Ireland.</p>
-    </section>
-
-    <section>
-      <h2>Contact Us</h2>
-      <p>Email: <a href="mailto:business@trademedica.co.uk">business@trademedica.co.uk</a></p>
-    </section>
-  </main>
-
-  <footer>
-    &copy; 2025 TradeMedica. All rights reserved.
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>TradeMedica</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f8fb;
-      color: #333;
-    }
-
-    .navbar {
       background-color: #007BFF;
       padding: 1rem 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
 
-    .navbar .container {
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 0 1rem;
     }
 
-    .navbar .logo {
-      color: #fff;
+    .logo {
+      color: white;
       font-size: 1.5rem;
-      text-decoration: none;
       font-weight: bold;
+      text-decoration: none;
     }
 
-    .navbar .nav-links {
+    nav ul {
       list-style: none;
       display: flex;
-      gap: 1rem;
+      gap: 1.5rem;
     }
 
-    .navbar .nav-links li a {
-      color: #fff;
+    nav ul li a {
+      color: white;
       text-decoration: none;
-      font-size: 1rem;
+      font-weight: 500;
     }
 
-    .navbar .nav-links li a:hover {
+    nav ul li a:hover {
       text-decoration: underline;
     }
 
     section {
-      padding: 2rem;
-      max-width: 960px;
+      background-color: white;
       margin: 2rem auto;
-      background-color: #fff;
+      padding: 2rem;
       border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      max-width: 900px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
 
     footer {
@@ -158,29 +75,41 @@
   </style>
 </head>
 <body>
-  <nav class="navbar">
+
+  <header>
     <div class="container">
-      <a href="index.html" class="logo">TradeMedica</a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <a href="#" class="logo">TradeMedica</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-  </nav>
+  </header>
 
   <section>
-    <h1>Welcome to TradeMedica</h1>
-    <p>We are a UK-based medical trading company focused on providing innovative solutions for healthcare providers through strategic partnerships with top manufacturers worldwide.</p>
+    <h2 style="color:#007BFF;">Welcome to TradeMedica</h2>
+    <p>TradeMedica is a UK-based startup focused on bringing innovative medical devices to market and bridging gaps in the healthcare sector.</p>
+    <p>We collaborate with international medical manufacturers and act as their distribution partner in the UK.</p>
+    <p>With insights into local healthcare needs, we aim to offer value-driven, quality products backed by trust and service excellence.</p>
+  </section>
+
+  <section>
+    <h3 style="color:#007BFF;">Products Coming Soon</h3>
+    <p>We're building partnerships with global manufacturers to bring cutting-edge solutions to hospitals and clinics across the UK and Ireland.</p>
+  </section>
+
+  <section>
+    <h3 style="color:#007BFF;">Contact Us</h3>
+    <p>Email: <a href="mailto:business@trademedica.co.uk">business@trademedica.co.uk</a></p>
   </section>
 
   <footer>
     &copy; 2025 TradeMedica. All rights reserved.
   </footer>
-</body>
-</html>
 
-  </footer>
 </body>
 </html>
